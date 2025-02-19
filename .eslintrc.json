@@ -146,7 +146,7 @@
       "node": {
         "paths": [
           "src",
-          "eslint-custom-rules"
+          "eslint-local-rules"
         ],
         "extensions": [
           ".js",
