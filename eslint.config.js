@@ -109,7 +109,7 @@ export default {
     },
     'import/resolver': {
       node: {
-        paths: ['src', 'eslint-local-rules'],
+        paths: ['src'],
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     },
