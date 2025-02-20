@@ -1,6 +1,6 @@
-const switchBreakAlign = require('./switch-break-align');
+import switchBreakAlign from './switch-break-align';
 
-module.exports = {
+export default {
   rules: {
     'switch-break-align': switchBreakAlign,
   },
