@@ -1,3 +1,5 @@
+import React from 'react';
+
 const CompaniesTabbedNav = () => {
   const handleTabChange = (nextTab) => {
     switch (nextTab) {
@@ -12,7 +14,7 @@ const CompaniesTabbedNav = () => {
     }
   };
 
-  return <div />;
+  return <div>TEST</div>;
 };
 
 export default CompaniesTabbedNav;

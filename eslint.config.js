@@ -30,7 +30,9 @@ export default [
     },
     plugins: {
       'eslint-local-rules': {
-        'switch-break-align': switchBreakAlign,
+        rules: {
+          'switch-break-align': switchBreakAlign,
+        },
       },
       'react': reactPlugin,
       'jsx-a11y': jsxA11yPlugin,
@@ -42,6 +44,7 @@ export default [
       'react-hooks': reactHooksPlugin,
     },
     rules: {
+      'eslint-local-rules/switch-break-align': 'error',
       'no-console': 'warn',
       'no-debugger': 'error',
       'no-unused-vars': [
@@ -118,7 +121,6 @@ export default [
       'no-var': 'error',
     },
     settings: {
-      'eslint-local-rules': path.resolve(__dirname, './eslint-local-rules'),
       'react': {
         version: 'detect',
       },
