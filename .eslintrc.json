@@ -30,6 +30,7 @@
     "react-hooks"
   ],
   "rules": {
+    "eslint-local-rules/switch-break-align": "error",
     "no-console": "warn",
     "no-debugger": "error",
     "no-unused-vars": [
@@ -127,17 +128,6 @@
     "prefer-const": "error",
     "no-var": "error"
   },
-  "overrides": [
-    {
-      "files": [
-        "**/*.js",
-        "**/*.jsx"
-      ],
-      "rules": {
-        "switch-break-align": "error"
-      }
-    }
-  ],
   "settings": {
     "react": {
       "version": "detect"
@@ -146,7 +136,7 @@
       "node": {
         "paths": [
           "src",
-          "eslint-custom-rules"
+          "eslint-local-rules"
         ],
         "extensions": [
           ".js",
